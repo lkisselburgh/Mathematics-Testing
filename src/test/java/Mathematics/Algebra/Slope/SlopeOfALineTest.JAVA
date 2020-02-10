@@ -5,8 +5,14 @@ import static org.junit.Assert.assertEquals;
 public class SlopeOfALineTest {
 	@Test
 	public void test1() {
-		Count test1 = new SlopeOfALine();
-		double slope = test1.slope(0,0,1,1);
+		SlopeOfALine test = new SlopeOfALine();
+		double slope = test.slope(0,0,1,1);
 		assertEquals(1, slope);
+	}
+	@Test
+	public void test2() {
+		SlopeOfALine test = new SlopeOfALine();
+		double slope = test.slope(0,0,1,1);
+		assertEquals(-1, slope);
 	}
 }
