@@ -1,4 +1,4 @@
-package Mathematics;
+package Mathematics.Algebra.Slope;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
