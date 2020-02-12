@@ -1,4 +1,4 @@
-package Mathetmatics.Algebra.Slope;
+package Mathematics.Algebra.Slope;
 import java.util.*;
 
 public class SlopeOfALine {
